@@ -31,10 +31,10 @@ public class YourCredentials {
         //yourCredentials.put("MONGOCRYPTD_PATH", "/usr/local/bin");
         yourCredentials.put("MONGOCRYPTD_URL", "mongodb://localhost:27020");
         // AWS Credentials
-        yourCredentials.put("AWS_ACCESS_KEY_ID", "AKIA6IESFAOZZTC6S3BS");
-        yourCredentials.put("AWS_SECRET_ACCESS_KEY", "1g5CkyTAhbaDkD91ii/jV8cUikhSAgwGaIzTwSFN");
+        yourCredentials.put("AWS_ACCESS_KEY_ID", "your_aws_key_id");
+        yourCredentials.put("AWS_SECRET_ACCESS_KEY", "your_aws_secret_key");
         yourCredentials.put("AWS_KEY_REGION", "eu-west-3");
-        yourCredentials.put("AWS_KEY_ARN", "arn:aws:kms:eu-west-3:979559056307:key/f8e7ed74-4801-480c-8292-f2bd821322da");
+        yourCredentials.put("AWS_KEY_ARN", "your_key_arn");
 
     }
     private static void checkPlaceholders() throws Exception {
