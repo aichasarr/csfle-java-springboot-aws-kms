@@ -38,13 +38,9 @@ buildNumber.properties
 .#*
 *#
 *~
-.classpath
-.project
-.settings
 bin
 build
 target
-dependency-reduced-pom.xml
 *.sublime-*
 /scratch
 .gradle
@@ -54,5 +50,4 @@ README.html
 .exercism
 
 src/main/java/com/mongodb/csfle/new_user_credentials.csv
-new_user_credentials.csv
 new_user_credentials.csv
