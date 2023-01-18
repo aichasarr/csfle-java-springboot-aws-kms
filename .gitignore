@@ -45,8 +45,6 @@ target
 /scratch
 .gradle
 README.html
-*.iml
-.idea
 .exercism
 
 src/main/java/com/mongodb/csfle/new_user_credentials.csv
