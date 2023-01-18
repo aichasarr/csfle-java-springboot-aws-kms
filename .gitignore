@@ -5,4 +5,5 @@
 *.iws
 *.iml
 *.ipr
+src/main/java/com/mongodb/csfle/new_user_credentials.csv
 new_user_credentials.csv
