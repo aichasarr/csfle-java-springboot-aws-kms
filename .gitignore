@@ -1,0 +1,9 @@
+./src/main/java/com/mongodb/csfle/new_user_credentials.csv
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+.idea
+*.iws
+*.iml
+*.ipr
+
