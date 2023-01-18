@@ -1,9 +1,58 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
+
+### VS Code ###
+.vscode/
+
+
+### Some additional ignores (sort later)
+*.DS_Store
+*.sw?
+.#*
+*#
+*~
+.classpath
+.project
+.settings
+bin
+build
+target
+dependency-reduced-pom.xml
+*.sublime-*
+/scratch
+.gradle
+README.html
+*.iml
+.idea
+.exercism
+
 src/main/java/com/mongodb/csfle/new_user_credentials.csv
+new_user_credentials.csv
 new_user_credentials.csv
