@@ -67,7 +67,7 @@ public class InsertEncryptedDocument {
         // end-kmsproviders
 
         // start-schema
-        String dekId = "SlCBX+hfTnSPcxnnh8/Q7g==";
+        String dekId = "yourdekId";
         Document jsonSchema = new Document().append("bsonType", "object").append("encryptMetadata",
         new Document().append("keyId", new ArrayList<>((Arrays.asList(new Document().append("$binary", new Document()
                 .append("base64", dekId)
